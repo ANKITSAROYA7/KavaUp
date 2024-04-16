@@ -13,3 +13,27 @@
     overflow: hidden;
   }
 }
+
+.slider-container {
+  place-items: center;
+  width: 100%;
+  display: grid;
+  position: relative;
+  margin: auto;
+  overflow-x: hidden;
+}
+
+.slider {
+  width: calc(228px * 10);
+  animation: scroll 30s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+      transform: translateX(0);
+  }
+
+  100% {
+      transform: translateX(calc(-228px * 5));
+  }
+}

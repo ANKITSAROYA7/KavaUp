@@ -11,13 +11,28 @@ const Partners = () => {
         <div className=' pt-14 sm:pt-24  lg:pt-[110px]'>
             <div className="container lg:!max-w-[1182px] px-3 mx-auto">
                 <p className=' font-poppins font-medium text-[24px] leading-[34px] text-[#03020D] text-center mx-auto'>Our Trusted Partners</p>
-                <div className=' flex items-center gap-[87.85px] justify-center pt-[50px]'>
-                    <img src={slack} className=' max-w-[109px]' alt="#" />
-                    <img src={netflix} className=' max-w-[95px]' alt="#" />
-                    <img src={fitbit} className=' max-w-[95px] ' alt="#" />
-                    <img src={google} className=' max-w-[95px]'  alt="#" />
-                    <img src={airbnb} className=' max-w-[95px]' alt="#" />
-                    <img src={uber} className=' max-w-[95px]' alt="#" />
+                <div className='slider-container'>
+                    <div className=' flex items-center  gap-9 lg:gap-[87.85px] justify-center pt-[50px] slider'>
+                        <img src={slack} className=' max-w-[109px]' alt="#" />
+                        <img src={netflix} className=' max-w-[95px]' alt="#" />
+                        <img src={fitbit} className=' max-w-[95px] ' alt="#" />
+                        <img src={google} className=' max-w-[95px]' alt="#" />
+                        <img src={airbnb} className=' max-w-[95px]' alt="#" />
+                        <img src={uber} className=' max-w-[95px]' alt="#" />
+                        <img src={slack} className=' max-w-[109px]' alt="#" />
+                        <img src={netflix} className=' max-w-[95px]' alt="#" />
+                        <img src={fitbit} className=' max-w-[95px] ' alt="#" />
+                        <img src={google} className=' max-w-[95px]' alt="#" />
+                        <img src={airbnb} className=' max-w-[95px]' alt="#" />
+                        <img src={uber} className=' max-w-[95px]' alt="#" />
+                        <img src={uber} className=' max-w-[95px]' alt="#" />
+                        <img src={slack} className=' max-w-[109px]' alt="#" />
+                        <img src={netflix} className=' max-w-[95px]' alt="#" />
+                        <img src={fitbit} className=' max-w-[95px] ' alt="#" />
+                        <img src={google} className=' max-w-[95px]' alt="#" />
+                        <img src={airbnb} className=' max-w-[95px]' alt="#" />
+                        <img src={uber} className=' max-w-[95px]' alt="#" />
+                    </div>
                 </div>
             </div>
         </div>

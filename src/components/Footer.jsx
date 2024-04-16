@@ -1,6 +1,6 @@
 import React from 'react'
-import { RightArrow, YouTube } from './comman/Icon'
-import logo from '../assets/images/png/Logo.png'
+import { Facebook, Insta, RightArrow, Twitter, YouTube } from './comman/Icon'
+import logo from '../assets/images/png/Logo.svg'
 
 const Footer = () => {
     return (
@@ -9,39 +9,39 @@ const Footer = () => {
                 <div className=' flex  flex-wrap justify-between pt-14 sm:pt-24 lg:pt-[130px] '>
                     <div className=' w-full sm:w-[50%] lg:w-auto pt-5 lg:pt-0'>
                         <ul>
-                            <li className=' font-poppins font-semibold text-[24px] leading-[28px] text-[#131619] pb-3 lg:pb-5'>Company</li>
-                            <li className=' text-[#46484B] font-poppins font-normal text-[18px] leading-[40px]'>Home</li>
-                            <li className=' text-[#46484B] font-poppins font-normal text-[18px] leading-[40px]'>Solutions</li>
-                            <li className=' text-[#46484B] font-poppins font-normal text-[18px] leading-[40px]'>Apps</li>
-                            <li className=' text-[#46484B] font-poppins font-normal text-[18px] leading-[40px]'>Services</li>
+                            <li className=' pb-3 lg:pb-5'><a className=' font-poppins font-semibold text-[24px] leading-[28px] text-[#131619]' href="">Company</a></li>
+                            <li><a className=' text-[#46484B] font-poppins font-normal text-[18px] leading-[40px]' href="#">Home</a></li>
+                            <li><a className=' text-[#46484B] font-poppins font-normal text-[18px] leading-[40px]' href="#">Solutions</a></li>
+                            <li><a className=' text-[#46484B] font-poppins font-normal text-[18px] leading-[40px]' href="#">Apps</a></li>
+                            <li><a className=' text-[#46484B] font-poppins font-normal text-[18px] leading-[40px]' href="#">Services</a></li>
                         </ul>
                     </div>
                     <div className=' w-full sm:w-[50%] lg:w-auto pt-5 lg:pt-0'>
                         <ul>
-                            <li className=' font-poppins font-semibold text-[24px] leading-[28px] text-[#131619] pb-3 lg:pb-5'>Product</li>
-                            <li className=' text-[#46484B] font-poppins font-normal text-[18px] leading-[40px]'>Web apps</li>
-                            <li className=' text-[#46484B] font-poppins font-normal text-[18px] leading-[40px]'>Mobile apps</li>
-                            <li className=' text-[#46484B] font-poppins font-normal text-[18px] leading-[40px]'>Mac & desktop apps</li>
+                            <li className='pb-3 lg:pb-5'><a className=' font-poppins font-semibold text-[24px] leading-[28px] text-[#131619] ' href="">Product</a></li>
+                            <li><a className=' text-[#46484B] font-poppins font-normal text-[18px] leading-[40px]' href="#">Web apps</a></li>
+                            <li><a className=' text-[#46484B] font-poppins font-normal text-[18px] leading-[40px]' href="#">Mobile apps</a></li>
+                            <li><a className=' text-[#46484B] font-poppins font-normal text-[18px] leading-[40px]' href="#">Mac & desktop apps</a></li>
                         </ul>
                     </div>
                     <div className=' w-full sm:w-[50%] lg:w-auto pt-5 lg:pt-0'>
                         <ul>
-                            <li className=' font-poppins font-semibold text-[24px] leading-[28px] text-[#131619] pb-3 lg:pb-5'>Company</li>
-                            <li className=' text-[#46484B] font-poppins font-normal text-[18px] leading-[40px]'>info@kava.com</li>
-                            <li className=' text-[#46484B] font-poppins font-normal text-[18px] leading-[40px] max-w-[217px]'>1234, Lorem ipsum dolor sit amet, consectetuer.</li>
+                            <li className='pb-3 lg:pb-5'><a className=' font-poppins font-semibold text-[24px] leading-[28px] text-[#131619]' href="">Company</a></li>
+                            <li><a className=' text-[#46484B] font-poppins font-normal text-[18px] leading-[40px]' href="#">info@kava.com</a></li>
+                            <li className=' max-w-[217px]'><a className=' text-[#46484B] font-poppins font-normal text-[18px] leading-[40px]' href="#">1234, Lorem ipsum dolor sit amet, consectetuer.</a></li>
                         </ul>
                     </div>
                     <div className=' w-full sm:w-[50%] lg:w-auto pt-5 lg:pt-0'>
-                        <p className=' font-poppins font-semibold text-[24px] leading-[28px] text-[#131619] pb-3 lg:pb-5'>Get in touch</p>
+                        <p className='pb-3 lg:pb-5'><a className=' font-poppins font-semibold text-[24px] leading-[28px] text-[#131619] ' href="#">Get in touch</a></p>
                         <div className='bg-[#E6F2FF]  w-[234px] py-1 rounded-[22.5px] flex items-center justify-between ps-5 pe-1'>
-                            <input className=' bg-transparent' type="text" placeholder='Your email address' />
-                            <button className=' py-[13px] bg-[#0055B2] px-3 rounded-[18.5px] '><RightArrow /></button>
+                            <input className=' bg-transparent outline-none focus:outline-none w-full' type="text" placeholder='Your email address' />
+                            <button className=' py-[13px] bg-[#0055B2] pe-3 ps-4 rounded-[18.5px] '><RightArrow /></button>
                         </div>
                         <div className='flex gap-4  pt-5 lg:pt-16'>
-                            <YouTube />
-                            <YouTube />
-                            <YouTube />
-                            <YouTube />
+                           <a href=""> <Facebook/></a>
+                           <a href=""> <YouTube /></a>
+                           <a href=""> <Twitter/></a>
+                           <a href=""> <Insta/></a>
                         </div>
                     </div>
                 </div>
