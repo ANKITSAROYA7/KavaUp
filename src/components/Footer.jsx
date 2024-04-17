@@ -34,11 +34,11 @@ const Footer = () => {
                     <div className=' w-full sm:w-[50%] lg:w-auto pt-5 lg:pt-0'>
                         <p className='pb-3 lg:pb-5'><a className=' font-poppins font-semibold text-[24px] leading-[28px] text-[#131619] ' href="#">Get in touch</a></p>
                         <div className='bg-[#E6F2FF]  w-[234px] py-1 rounded-[22.5px] flex items-center justify-between ps-5 pe-1'>
-                            <input className=' bg-transparent outline-none focus:outline-none w-full' type="text" placeholder='Your email address' />
+                            <input className=' bg-transparent outline-none focus:outline-none w-full placeholder:font-poppins placeholder:text-xs placeholder:leading-7 placeholder:text-[#58595B]' type="text" placeholder='Your email address' />
                             <button className=' py-[13px] bg-[#0055B2] pe-3 ps-4 rounded-[18.5px] '><RightArrow /></button>
                         </div>
                         <div className='flex gap-4  pt-5 lg:pt-16'>
-                           <a href=""> <Facebook/></a>
+                           <a href="" className=' group'> <Facebook/></a>
                            <a href=""> <YouTube /></a>
                            <a href=""> <Twitter/></a>
                            <a href=""> <Insta/></a>

@@ -8,10 +8,10 @@ import { Arrow } from './comman/Icon'
 
 const HeroSection = () => {
     const [show, setShow] = useState(false);
-    if (show === true) {
-        document.body.classList.add("overflow_hidden")
+    if (show) {
+        document.body.classList.add("overflow-hidden")
     } else {
-        document.body.classList.remove("overflow_hidden")
+        document.body.classList.remove("overflow-hidden")
     }
     return (
         <div>
@@ -22,11 +22,11 @@ const HeroSection = () => {
                             <img src={logo} className=' w-20 sm:w-24 lg:w-auto cursor-pointer' alt='logo' />
                         </div>
                         <ul className={`${show ? " !left-[0px] bg-[#ffff]" : ""} z-40 flex gap-[40px] flex-col min-h-screen w-full top-0 bottom-0 fixed justify-center items-center left-full lg:static lg:w-auto lg:min-h-full lg:flex-row transition-all duration-500 `}>
-                            <li><a onClick={() => setShow(!show)} href="#" className='text-[#131619] font-poppins font-medium text-lg leading-[21px] hover:text-[#0055B2] transition-all duration-300'>Home</a></li>
-                            <li><a onClick={() => setShow(!show)} href="#" className='text-[#131619] font-poppins font-medium text-lg leading-[21px] flex  items-center hover:text-[#0055B2] transition-all duration-300'>Apps<span className=' ps-2'><Arrow/></span></a></li>
-                            <li><a onClick={() => setShow(!show)} href="#" className='text-[#131619] font-poppins font-medium text-lg leading-[21px] flex  items-center hover:text-[#0055B2] transition-all duration-300'>Solutions<span className=' ps-2'><Arrow/></span></a></li>
-                            <li><a onClick={() => setShow(!show)} href="#" className='text-[#131619] font-poppins font-medium text-lg leading-[21px] flex  items-center hover:text-[#0055B2] transition-all duration-300'>Services<span className=' ps-2'><Arrow/></span></a></li>
-                            <li><a onClick={() => setShow(!show)} href="#" className='text-[#131619] font-poppins font-medium text-lg leading-[21px] hover:text-[#0055B2] transition-all duration-300'>Contact Us</a></li>
+                            <li><a onClick={() => setShow(false)} href="#" className='text-[#131619] font-poppins font-medium text-lg leading-[21px] hover:text-[#0055B2] transition-all duration-300'>Home</a></li>
+                            <li><a onClick={() => setShow(false)} href="#" className='text-[#131619] font-poppins font-medium text-lg leading-[21px] flex  items-center hover:text-[#0055B2] transition-all duration-300'>Apps<span className=' ps-2'><Arrow/></span></a></li>
+                            <li><a onClick={() => setShow(false)} href="#" className='text-[#131619] font-poppins font-medium text-lg leading-[21px] flex  items-center hover:text-[#0055B2] transition-all duration-300'>Solutions<span className=' ps-2'><Arrow/></span></a></li>
+                            <li><a onClick={() => setShow(false)} href="#" className='text-[#131619] font-poppins font-medium text-lg leading-[21px] flex  items-center hover:text-[#0055B2] transition-all duration-300'>Services<span className=' ps-2'><Arrow/></span></a></li>
+                            <li><a onClick={() => setShow(false)} href="#" className='text-[#131619] font-poppins font-medium text-lg leading-[21px] hover:text-[#0055B2] transition-all duration-300'>Contact Us</a></li>
                         </ul>
                         <label className=' z-[41] lg:hidden  text-3xl' onClick={() => setShow(!show)}>
                             {show ? <RxCross1 /> : <BiMenu />}
