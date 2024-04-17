@@ -4,7 +4,7 @@ import phonepic from '../assets/images/png/PhonePic.png'
 const ContactUs = () => {
     return (
         <div className=' pt-14 sm:pt-24  lg:pt-[140px]'>
-            <div className="container lg:!max-w-[1182px] px-3 mx-auto  overflow-hidden ">
+            <div className="container lg:!max-w-[1194px] px-3 mx-auto  overflow-hidden ">
                 <div className='bg-[#F8dbeb] p-5 sm:p-10 lg:p-0'>
                     <div className=' max-w-[951px] mx-auto'>
                         <div className="flex items-end flex-wrap mx-[-12px] justify-center ">

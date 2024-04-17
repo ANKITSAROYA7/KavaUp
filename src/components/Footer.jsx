@@ -5,7 +5,7 @@ import logo from '../assets/images/png/Logo.svg'
 const Footer = () => {
     return (
         <div>
-            <div className="container lg:!max-w-[1182px] px-3 mx-auto ">
+            <div className="container lg:!max-w-[1194px] px-3 mx-auto ">
                 <div className=' flex  flex-wrap justify-between pt-14 sm:pt-24 lg:pt-[130px] '>
                     <div className=' w-full sm:w-[50%] lg:w-auto pt-5 lg:pt-0'>
                         <ul>

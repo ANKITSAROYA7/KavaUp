@@ -15,7 +15,7 @@ const HeroSection = () => {
     }
     return (
         <div>
-            <div className="container lg:!max-w-[1182px] px-3 mx-auto">
+            <div className="container lg:!max-w-[1194px] px-3 mx-auto">
                 <nav className=' pt-[23px] pb-6 sm:pb-10 lg:pb-[123px]'>
                     <div className=' flex justify-between items-center'>
                         <div className=' flex items-center'>
@@ -58,8 +58,8 @@ const HeroSection = () => {
                         </label>
                     </div>
                 </nav>
-                <p className=' text-[#080F1D] max-w-[1000px] font-poppins font-semibold text-[22px] md:text-[35px] lg:text-[43px] xl:text-5xl sm:leading-9 lg:leading-[60px] mx-auto text-center  xl:pb-[80px] pb-6 sm:pb-10'>Building Reliable Solutions for Businesses, Brands, & Startups</p>
-                <div className=' flex flex-wrap mx-[-12px] items-center 2xl:items-start justify-center '>
+                <p className=' text-[#080F1D] max-w-[1000px] font-poppins font-semibold text-[22px] md:text-[35px] lg:text-[43px] xl:text-5xl sm:leading-9 lg:leading-[60px] mx-auto text-center  xl:pb-[87px] pb-6 sm:pb-10'>Building Reliable Solutions for Businesses, Brands, & Startups</p>
+                <div className=' flex flex-wrap mx-[-12px] items-center  justify-center '>
                     <div className=' lg:w-6/12 px-3'>
                         <p className=' font-semibold text-[20px] md:text-[32px]  lg:text-[40px] font-poppins  lg:leading-[50px] text-[#080F1D] pb-3 md:pb-5 lg:pb-6'>Web Apps</p>
                         <p className=' text-[#0055B2] font-poppins font-medium text-[19px] sm:text-xl lg:leading-[32px] pb-3 lg:pb-4'>Custom Web App Development</p>
@@ -68,8 +68,8 @@ const HeroSection = () => {
                         <p className=' text-[#46484B] font-poppins font-normal text-lg leading-[32px] pb-5 lg:pb-[30px]'>We analyze your unique needs and build powerful, practical web applications that make your life easier. From customer portals to key integrations with third-party vendors and beyond, our custom web application development solves problems. </p>
                         <button className=' font-poppins font-medium text-lg lg:leading-[21px] text-white px-10 py-5 bg-gradient-to-l from-[#0055B2] to-[#D0006F] rounded-[50px] hover:scale-[1.05] transition-all duration-300'>Read More</button>
                     </div>
-                    <div className=' lg:w-6/12 px-3 relative pt-5 lg:pt-0 '>
-                        <img className='  2xl:absolute -top-[10px] left-14 w-full  2xl:min-w-[697px]' src={mainpic} alt="#" />
+                    <div className=' lg:w-6/12 px-3 relative pt-5 lg:pt-0 2xl:h-[531px]'>
+                        <img className='  2xl:absolute  left-14 w-full  2xl:min-w-[697px]' src={mainpic} alt="#" />
                     </div>
                 </div>
             </div>

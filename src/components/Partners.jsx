@@ -9,7 +9,7 @@ import uber from '../assets/images/png/Uber.png'
 const Partners = () => {
     return (
         <div className=' pt-14 sm:pt-24  lg:pt-[110px]'>
-            <div className="container lg:!max-w-[1182px] px-3 mx-auto">
+            <div className="container lg:!max-w-[1194px] px-3 mx-auto">
                 <p className=' font-poppins font-medium text-[24px] leading-[34px] text-[#03020D] text-center mx-auto'>Our Trusted Partners</p>
                 <div className=' overflow-x-clip'>
                     <div className=' flex items-center  gap-9 lg:gap-[87.85px] justify-center pt-[50px] animate-spin-slow'>
